@@ -130,16 +130,40 @@ body{
   }
 
   #main {
+    display:inline-grid;
     position:absolute;
-    top:50%;
-    left:50%;
+    top:12%;
+    left:0.5rem;
     width:100%;
     max-width:1000px;
-    transform:translate(-50%,-50%);
     padding:0.5rem;
   }
 
+  a button{
+  	grid-column: 1 / 2;
+  	grid-row: 1 / 2;
+  	font-family:'PP-Editorial-New';
+  	text-decoration: none;
+  	color:rgb(255, 248, 221) !important;
+  	max-height:35px;
+  	padding:10px;
+  	width:auto;
+  	margin-right:50px;
+  	color:rgb(255, 248, 221) !important;
+  	background:rgb(233, 45, 45);
+  	border:1px solid black;
+  	border-radius:4px;
+  }
+
+  a button:hover{
+  	color:rgb(233, 45, 45) !important;
+  	background:rgb(255, 248, 221);
+  	border:1px solid rgb(233, 45, 45);
+  }
+
   ol {
+  	grid-column: 2 / 2;
+  	grid-row: 1 / span 2;
     list-style-type: none;
     line-height:1.5em;
   }
@@ -171,6 +195,13 @@ body{
 	#main {
     	position:static;
     	transform:translate(0,0);
+    	display:block;
+    	margin:auto;
+	}
+
+	a button {
+		margin-bottom:25px;
+		margin-right:0px;
 	}
 
 	li {
