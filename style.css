@@ -8,42 +8,42 @@
 
 @font-face{
 	font-family:'PP-Editorial-New';
-	src: url('fonts/PPEditorialNew-Regular.otf') format('opentype');
+	src: url('Fonts/PPEditorialNew-Regular.otf') format('opentype');
 	font-weight:normal;
 	font-style:normal;
 }
 
 @font-face{
 	font-family:'PP-Editorial-New';
-	src: url('fonts/PPEditorialNew-Italic.otf') format('opentype');
+	src: url('Fonts/PPEditorialNew-Italic.otf') format('opentype');
 	font-weight:normal;
 	font-style:italic;
 }
 
 @font-face{
 	font-family:'PP-Editorial-New';
-	src: url('fonts/PPEditorialNew-Ultrabold.otf') format('opentype');
+	src: url('Fonts/PPEditorialNew-Ultrabold.otf') format('opentype');
 	font-weight:bold;
 	font-style:normal;
 }
 
 @font-face{
 	font-family:'PP-Editorial-New';
-	src: url('fonts/PPEditorialNew-UltraboldItalic.otf') format('opentype');
+	src: url('Fonts/PPEditorialNew-UltraboldItalic.otf') format('opentype');
 	font-weight:bold;
 	font-style:italic;
 }
 
 @font-face{
 	font-family:'PP-Editorial-New';
-	src: url('fonts/PPEditorialNew-Ultralight.otf') format('opentype');
+	src: url('Fonts/PPEditorialNew-Ultralight.otf') format('opentype');
 	font-weight:300;
 	font-style:normal;
 }
 
 @font-face{
 	font-family:'PP-Editorial-New';
-	src: url('fonts/PPEditorialNew-UltralightItalic.otf') format('opentype');
+	src: url('Fonts/PPEditorialNew-UltralightItalic.otf') format('opentype');
 	font-weight:300;
 	font-style:italic;
 }
@@ -52,14 +52,14 @@
 
 @font-face{
 	font-family:'Suisse';
-	src: url('fonts/SuisseIntl-Bold.otf') format('opentype');
+	src: url('Fonts/SuisseIntl-Bold.otf') format('opentype');
 	font-weight:bold;
 	font-style:normal;
 }
 
 @font-face{
 	font-family:'Suisse';
-	src: url('fonts/SuisseIntl-Light.otf') format('opentype');
+	src: url('Fonts/SuisseIntl-Light.otf') format('opentype');
 	font-weight:lighter;
 	font-style:normal;
 }
